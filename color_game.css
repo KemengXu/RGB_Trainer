@@ -1,0 +1,48 @@
+body {
+    background-color: #232323;
+}
+#title{
+    background-color: cadetblue;
+}
+
+.square {
+    width: 15%;
+    height: 70%;
+    background-color: aliceblue;
+    padding-bottom: 10%;
+    margin: 2%;
+    margin-bottom: 0em;
+    border-radius: 15%;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+}
+
+.row2{
+    margin-top: 0em;
+}
+
+.col-mid {
+    margin-left: 0em;
+    margin-right: 0em;
+}
+
+.selected {
+    background-color: darkcyan;
+    color: white;
+}
+
+button {
+    border: none;
+    background: none;
+    height: 100%;
+    font-weight: 700;
+    color: darkcyan;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+}
+
+button:hover {
+    color: white;
+    background-color: darkcyan;
+}
